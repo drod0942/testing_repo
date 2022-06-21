@@ -16,7 +16,7 @@ body, html {
   .bg {
     background-image: url("pic.jpg");
     height: 100%; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) , url(pic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.55)) , url(pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,3 +73,43 @@ body, html {
       }
 
 
+.intro{
+    height: 25em;
+    width: 25em;
+    position: absolute;
+    left: 37%;
+    color: white;
+    top: 27%;
+    text-align: center;
+}
+
+.intro h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 72px;
+}
+
+.intro p{
+    font-family: 'Nanum Myeongjo', serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.intro a{
+
+    display: block;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+    top: 40px;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lexend', 'Cormorant Garamond', serif;
+    border-radius: 2px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+
+}
